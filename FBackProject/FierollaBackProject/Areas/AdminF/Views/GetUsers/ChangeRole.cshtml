@@ -1,0 +1,39 @@
+﻿@model UserVm
+@{
+    ViewData["Title"] = "ChangeRole";
+}
+    <div class="row mt-3">
+        <div class="col-md-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h1>Change Role</h1>
+                    <h2 class="card-title">@Model.Fullname</h2>
+                    <h4 class="card-title">@Model.Email</h4>
+                    <h4 class="card-title">@Model.Role</h4>
+                </div>
+            </div>
+        </div>
+        <a asp-action="Index" class="btn btn-dark mr-3">
+            Go Back
+        </a>
+        <form method="post">
+            @foreach (var item in Model.Roles)
+            {
+                if (item == Model.Role)
+                {
+                    <input type="radio" name="Role" value="@item" checked /> @item
+                }
+                else
+                {
+                    <input type="radio" name="Role" value="@item" />@item
+                }
+
+            }
+            <button class="btn btn-danger" type="submit">
+                Change Role
+            </button>
+        </form>
+    </div>
+
+
+

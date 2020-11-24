@@ -1,0 +1,27 @@
+﻿
+@model Slider
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<div class="row mt-3">
+    <div class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Image Detail</h4>
+
+                <p>
+                    <img src="~/img/@Model.Image" width="400px" height="200px" />
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <form style="display:inline;" method="Post">
+        <button class="btn btn-warning mr-5">Delete</button>
+    </form>
+    <a class="btn btn-success" asp-action="Index">Back</a>
+</div>
+
+

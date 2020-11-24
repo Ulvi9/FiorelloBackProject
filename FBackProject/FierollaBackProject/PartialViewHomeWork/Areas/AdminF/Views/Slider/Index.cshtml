@@ -1,0 +1,84 @@
+﻿@model IEnumerable<Slider>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="col-lg-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Slider</h4>
+            @if (Model.Count() < 5)
+            {
+                <a class="btn btn-success" asp-action="Create">Create Slider</a>
+            }
+
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Slider Image</th>
+                            <th>Setting</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (Slider item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <img src="~/img/@item.Image" style="width:150px; height:150px; border-radius: 0;" />
+                                </td>
+                                
+                                <td>
+                                    <a asp-action="Detail" asp-route-id="@item.Id" class="btn btn-success">
+                                        <i class="mdi mdi-account-card-details"></i>
+                                    </a>
+                                    <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-warning">
+                                        <i class="mdi mdi-table-edit"> </i>
+                                    </a>
+
+                                    @*<a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">
+                                        <i class="mdi mdi-delete"></i>
+                                    </a>*@
+                                    <!-- Button trigger modal -->
+                                    <button  type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+                                        <i class="mdi mdi-delete"></i>
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                   Are you sure to delete this image ??
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <form asp-action="Delete" asp-route-id="@item.Id"  method="post">
+                                                        @item.Image
+                                                        <input type="submit" class="btn btn-danger"  value="Delete" />
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+
+
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

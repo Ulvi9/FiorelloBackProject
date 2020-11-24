@@ -1,0 +1,57 @@
+﻿
+
+@model List<BasketVM>
+@{
+    ViewData["Title"] = "Basket";
+    int Total = 0;
+}
+<div class="container">
+    <div class="row mt-5">
+        @if (Model.Count != 0)
+        {
+            <table class="table ">
+                <thead>
+                    <tr>
+                        <th scope="col">Image</th>
+                        <th scope="col">Product Name</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Count</th>
+                        <th scope="col">Action</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (BasketVM item in Model)
+                    {
+                        int total = (item.Count * (int)item.Price);
+                        Total += total;
+                        <tr>
+                            <td>
+                                <img src="~/img/@item.ImageName" width="200px" />
+                            </td>
+                            <td>@item.Title</td>
+                            <td>@item.Price</td>
+                            <td>@item.Count</td>
+                            <td>
+                                <a asp-controller="Basket" asp-action="AddBasket" asp-route-id="@item.Id"><i style="margin-right:15px;cursor:pointer;color:black;" class="fas fa-plus"></i></a>
+                                <a asp-controller="Basket" asp-action="Decrease" asp-route-id="@item.Id"><i style="margin-right:15px;cursor:pointer;color:black;"class="fas fa-minus"></i></a>
+                            </td>
+                            <td>@total</td>
+                            <td><a asp-controller="Basket" asp-action="RemoveFromBasket" asp-route-id="@item.Id">X</a></td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+            <div class="container">
+                <div class="row">Total @Total </div>
+            </div>
+        }
+        else
+        {
+            <p class="text-center"> Go To <a asp-controller="Home" asp-action="Index"> Home Page</a> or <a asp-controller="Product" asp-action="Index"> Product Page</a> </p>
+        }
+    </div>
+</div>
+

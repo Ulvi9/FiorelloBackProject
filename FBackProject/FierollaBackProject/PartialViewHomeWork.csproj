@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200817135320_createslidertable.cs" />
+    <Compile Remove="Migrations\20200817135320_createslidertable.Designer.cs" />
+    <Compile Remove="Migrations\20200817140011_createslidertable.cs" />
+    <Compile Remove="Migrations\20200817140011_createslidertable.Designer.cs" />
+    <Compile Remove="Migrations\20200818135345_createunique.cs" />
+    <Compile Remove="Migrations\20200818135345_createunique.Designer.cs" />
+    <Compile Remove="Migrations\20200826110447_createsalestable.cs" />
+    <Compile Remove="Migrations\20200826110447_createsalestable.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="2.8.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\AdminF\Data\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,58 @@
+﻿@model IEnumerable<SalesVM>
+@{
+    ViewData["Title"] = "Index";
+    int count = 0;
+}
+
+    <div class="col-lg-9 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title"> Users</h4>
+
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Fullname</th>
+                                <th>Email</th>
+                                <th>Date</th>
+                                <th>Total</th>
+                                <th>Products</th>
+                                <th>Settings</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (SalesVM item in Model)
+                            {
+                                count++;
+                            <tr>
+                                <td>@count</td>
+                                <td>@item.Fullname</td>
+                                <td>@item.Email</td>
+                                <td>@item.Date</td>
+                                
+                                <td>@item.Total</td>
+                                <td>
+                                    <ul>
+                                        @foreach (var i in item.SaleProducts)
+                                        {
+                                            <li>@i.Product.Title-@i.Count-@i.Price</li>
+
+                                        }
+                                    </ul>
+                                </td>
+                                <td>ulvi</td>
+
+
+                            </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+

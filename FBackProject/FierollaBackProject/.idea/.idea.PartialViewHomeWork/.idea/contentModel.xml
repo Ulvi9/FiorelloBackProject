@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\user\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\user\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_PartialViewHomeWork.1732141484.00" t="ExcludeRecursive" />
+    <e p="C:\Users\user\Desktop\FBackProject\FierollaBackProject" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PartialViewHomeWork" t="IncludeRecursive">
+        <e p="appsettings.json" t="Include" />
+        <e p="Areas" t="Include">
+          <e p="AdminF" t="Include">
+            <e p="Controllers" t="Include">
+              <e p="CategoryController.cs" t="Include" />
+              <e p="DashboardController.cs" t="Include" />
+              <e p="SliderController.cs" t="Include" />
+            </e>
+            <e p="Data" t="Include" />
+            <e p="Models" t="Include" />
+            <e p="Views" t="Include">
+              <e p="_ViewImports.cshtml" t="Include" />
+              <e p="_ViewStart.cshtml" t="Include" />
+              <e p="Category" t="Include">
+                <e p="Create.cshtml" t="Include" />
+                <e p="Delete.cshtml" t="Include" />
+                <e p="Detail.cshtml" t="Include" />
+                <e p="Index.cshtml" t="Include" />
+                <e p="Update.cshtml" t="Include" />
+              </e>
+              <e p="Dashboard" t="Include">
+                <e p="Index.cshtml" t="Include" />
+              </e>
+              <e p="Shared" t="Include">
+                <e p="_AdminLayout.cshtml" t="Include" />
+                <e p="_validation.cshtml" t="Include" />
+              </e>
+              <e p="Slider" t="Include">
+                <e p="Create.cshtml" t="Include" />
+                <e p="Delete.cshtml" t="Include" />
+                <e p="Detail.cshtml" t="Include" />
+                <e p="Index.cshtml" t="Include" />
+                <e p="Update.cshtml" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="BasketController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+          <e p="ProductController.cs" t="Include" />
+        </e>
+        <e p="Dal" t="Include">
+          <e p="AppDbContext.cs" t="Include" />
+        </e>
+        <e p="extensions" t="Include">
+          <e p="extension.cs" t="Include" />
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="Helper.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20200810120556_CreateCategoryProductTable.cs" t="Include" />
+          <e p="20200810120556_CreateCategoryProductTable.Designer.cs" t="Include" />
+          <e p="20200811112640_createBioTable.cs" t="Include" />
+          <e p="20200811112640_createBioTable.Designer.cs" t="Include" />
+          <e p="20200817140432_createtavbleslider.cs" t="Include" />
+          <e p="20200817140432_createtavbleslider.Designer.cs" t="Include" />
+          <e p="20200818135858_createunique.cs" t="Include" />
+          <e p="20200818135858_createunique.Designer.cs" t="Include" />
+          <e p="20200818140159_removeunique.cs" t="Include" />
+          <e p="20200818140159_removeunique.Designer.cs" t="Include" />
+          <e p="AppDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Bio.cs" t="Include" />
+          <e p="Category.cs" t="Include" />
+          <e p="Product.cs" t="Include" />
+          <e p="ProductViewModel" t="Include">
+            <e p="ProductModel.cs" t="Include" />
+          </e>
+          <e p="Slider.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="PartialViewHomeWork.AssemblyInfo.cs" t="Include" />
+              <e p="PartialViewHomeWork.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PartialViewHomeWork.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="ScaffoldingReadMe.txt" t="Include" />
+        <e p="Startup.cs" t="Include" />
+        <e p="ViewComponents" t="Include">
+          <e p="FoterViewComponent.cs" t="Include" />
+          <e p="HeaderViewComponent.cs" t="Include" />
+          <e p="ProductsViewComponent.cs" t="Include" />
+        </e>
+        <e p="ViewModel" t="Include">
+          <e p="BasketVM.cs" t="Include" />
+          <e p="HomeView.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Basket" t="Include">
+            <e p="Basket.cshtml" t="Include" />
+          </e>
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Product" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_partialview.cshtml" t="Include" />
+            <e p="_SearchProductPartial.cshtml" t="Include" />
+            <e p="Components" t="Include">
+              <e p="Foter" t="Include">
+                <e p="Default.cshtml" t="Include" />
+              </e>
+              <e p="Header" t="Include">
+                <e p="Default.cshtml" t="Include" />
+              </e>
+              <e p="Products" t="Include">
+                <e p="Default.cshtml" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="admin" t="Include">
+            <e p="css" t="Include">
+              <e p="maps" t="Include">
+                <e p="style.css.map" t="Include" />
+              </e>
+              <e p="style.css" t="Include" />
+            </e>
+            <e p="fonts" t="Include">
+              <e p="Roboto" t="Include">
+                <e p="Roboto-Black.eot" t="Include" />
+                <e p="Roboto-Black.ttf" t="Include" />
+                <e p="Roboto-Black.woff" t="Include" />
+                <e p="Roboto-Black.woff2" t="Include" />
+                <e p="Roboto-Bold.eot" t="Include" />
+                <e p="Roboto-Bold.ttf" t="Include" />
+                <e p="Roboto-Bold.woff" t="Include" />
+                <e p="Roboto-Bold.woff2" t="Include" />
+                <e p="Roboto-Light.eot" t="Include" />
+                <e p="Roboto-Light.ttf" t="Include" />
+                <e p="Roboto-Light.woff" t="Include" />
+                <e p="Roboto-Light.woff2" t="Include" />
+                <e p="Roboto-Medium.eot" t="Include" />
+                <e p="Roboto-Medium.ttf" t="Include" />
+                <e p="Roboto-Medium.woff" t="Include" />
+                <e p="Roboto-Medium.woff2" t="Include" />
+                <e p="Roboto-Regular.eot" t="Include" />
+                <e p="Roboto-Regular.ttf" t="Include" />
+                <e p="Roboto-Regular.woff" t="Include" />
+                <e p="Roboto-Regular.woff2" t="Include" />
+              </e>
+            </e>
+            <e p="images" t="Include">
+              <e p="auth" t="Include">
+                <e p="lockscreen-bg.jpg" t="Include" />
+                <e p="login-bg.jpg" t="Include" />
+                <e p="register-bg.jpg" t="Include" />
+              </e>
+              <e p="faces" t="Include">
+                <e p="face1.jpg" t="Include" />
+                <e p="face10.jpg" t="Include" />
+                <e p="face11.jpg" t="Include" />
+                <e p="face12.jpg" t="Include" />
+                <e p="face13.jpg" t="Include" />
+                <e p="face14.jpg" t="Include" />
+                <e p="face15.jpg" t="Include" />
+                <e p="face16.jpg" t="Include" />
+                <e p="face17.jpg" t="Include" />
+                <e p="face18.jpg" t="Include" />
+                <e p="face19.jpg" t="Include" />
+                <e p="face2.jpg" t="Include" />
+                <e p="face20.jpg" t="Include" />
+                <e p="face21.jpg" t="Include" />
+                <e p="face22.jpg" t="Include" />
+                <e p="face23.jpg" t="Include" />
+                <e p="face24.jpg" t="Include" />
+                <e p="face25.jpg" t="Include" />
+                <e p="face26.jpg" t="Include" />
+                <e p="face27.jpg" t="Include" />
+                <e p="face3.jpg" t="Include" />
+                <e p="face4.jpg" t="Include" />
+                <e p="face5.jpg" t="Include" />
+                <e p="face6.jpg" t="Include" />
+                <e p="face7.jpg" t="Include" />
+                <e p="face8.jpg" t="Include" />
+                <e p="face9.jpg" t="Include" />
+                <e p="logo.png" t="Include" />
+                <e p="messi.jpg" t="Include" />
+              </e>
+              <e p="favicon.png" t="Include" />
+              <e p="logo-mini.svg" t="Include" />
+              <e p="logo.svg" t="Include" />
+            </e>
+            <e p="js" t="Include">
+              <e p="chart.js" t="Include" />
+              <e p="Chart.min.js" t="Include" />
+              <e p="dashboard.js" t="Include" />
+              <e p="data-table.js" t="Include" />
+              <e p="dataTables.bootstrap4.js" t="Include" />
+              <e p="documentation.js" t="Include" />
+              <e p="file-upload.js" t="Include" />
+              <e p="hoverable-collapse.js" t="Include" />
+              <e p="jquery.dataTables.js" t="Include" />
+              <e p="off-canvas.js" t="Include" />
+              <e p="tabs.js" t="Include" />
+              <e p="template.js" t="Include" />
+            </e>
+            <e p="vendors" t="Include">
+              <e p="base" t="Include">
+                <e p="bootstrap.min.js.map" t="Include" />
+                <e p="vendor.bundle.base.css" t="Include" />
+                <e p="vendor.bundle.base.js" t="Include" />
+              </e>
+              <e p="chart.js" t="Include">
+                <e p="Chart.min.js" t="Include" />
+              </e>
+              <e p="datatables.net" t="Include">
+                <e p="jquery.dataTables.js" t="Include" />
+              </e>
+              <e p="datatables.net-bs4" t="Include">
+                <e p="dataTables.bootstrap4.css" t="Include" />
+                <e p="dataTables.bootstrap4.js" t="Include" />
+              </e>
+              <e p="mdi" t="Include">
+                <e p="css" t="Include">
+                  <e p="materialdesignicons.min.css" t="Include" />
+                  <e p="materialdesignicons.min.css.map" t="Include" />
+                </e>
+                <e p="fonts" t="Include">
+                  <e p="materialdesignicons-webfont.eot" t="Include" />
+                  <e p="materialdesignicons-webfont.svg" t="Include" />
+                  <e p="materialdesignicons-webfont.ttf" t="Include" />
+                  <e p="materialdesignicons-webfont.woff" t="Include" />
+                  <e p="materialdesignicons-webfont.woff2" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="css" t="Include">
+            <e p="style.css" t="Include" />
+            <e p="style.css.map" t="Include" />
+          </e>
+          <e p="img" t="Include">
+            <e p="134146fc-367c-4ab1-8b0d-aec63236ad00blog2.jpg" t="Include" />
+            <e p="79778b2e-68b7-471e-9e30-034561c93fc1expert2.png" t="Include" />
+            <e p="8bd882c6-cced-4ac2-b457-5bd5605e3aecexpert3 - Copy.png" t="Include" />
+            <e p="blog-feature-img-1.jpg" t="Include" />
+            <e p="blog-feature-img-3.jpg" t="Include" />
+            <e p="blog-feature-img-4.jpg" t="Include" />
+            <e p="cbb07474-e7a0-4921-a199-bdd88b1199b2Capture.PNG" t="Include" />
+            <e p="f4d1f0e0-bdab-4a73-a19a-7db4cbc7e785blog1.jpg" t="Include" />
+            <e p="favicon.png" t="Include" />
+            <e p="footer-bottom-1.png" t="Include" />
+            <e p="h1-custom-icon.png" t="Include" />
+            <e p="h2-sign-img.png" t="Include" />
+            <e p="h3-background-img.jpg" t="Include" />
+            <e p="h3-slider-background.jpg" t="Include" />
+            <e p="h3-team-img-1.png" t="Include" />
+            <e p="h3-team-img-2.png" t="Include" />
+            <e p="h3-team-img-3.png" t="Include" />
+            <e p="h3-team-img-4.png" t="Include" />
+            <e p="h3-video-img.jpg" t="Include" />
+            <e p="instagram1.jpg" t="Include" />
+            <e p="instagram2.jpg" t="Include" />
+            <e p="instagram3.jpg" t="Include" />
+            <e p="instagram4.jpg" t="Include" />
+            <e p="instagram5.jpg" t="Include" />
+            <e p="instagram6.jpg" t="Include" />
+            <e p="instagram7.jpg" t="Include" />
+            <e p="instagram8.jpg" t="Include" />
+            <e p="logo.png" t="Include" />
+            <e p="shop-10-img.jpg" t="Include" />
+            <e p="shop-11-img.jpg" t="Include" />
+            <e p="shop-12-img.jpg" t="Include" />
+            <e p="shop-13-img.jpg" t="Include" />
+            <e p="shop-14-img.jpg" t="Include" />
+            <e p="shop-7-img.jpg" t="Include" />
+            <e p="shop-8-img.jpg" t="Include" />
+            <e p="shop-9-img.jpg" t="Include" />
+            <e p="shop-category-img-1.jpg" t="Include" />
+            <e p="shop-category-img-2.jpg" t="Include" />
+            <e p="shop-category-img-3.jpg" t="Include" />
+            <e p="shop-category-img-4.jpg" t="Include" />
+            <e p="shop-category-img-5.jpg" t="Include" />
+            <e p="shop-category-img-6.jpg" t="Include" />
+            <e p="testimonial-img-1.png" t="Include" />
+            <e p="testimonial-img-2.png" t="Include" />
+          </e>
+          <e p="js" t="Include">
+            <e p="script.js" t="Include" />
+          </e>
+          <e p="owlcarousel" t="Include">
+            <e p="owl.carousel.min.css" t="Include" />
+            <e p="owl.carousel.min.js" t="Include" />
+            <e p="owl.theme.default.min.css" t="Include" />
+          </e>
+          <e p="sass" t="Include">
+            <e p="lib" t="Include">
+              <e p="_common.scss" t="Include" />
+              <e p="_mixins.scss" t="Include" />
+              <e p="_varibales.scss" t="Include" />
+            </e>
+            <e p="sections" t="Include">
+              <e p="_about.scss" t="Include" />
+              <e p="_accordion.scss" t="Include" />
+              <e p="_blog.scss" t="Include" />
+              <e p="_experts.scss" t="Include" />
+              <e p="_footer.scss" t="Include" />
+              <e p="_header.scss" t="Include" />
+              <e p="_instagram.scss" t="Include" />
+              <e p="_product-list.scss" t="Include" />
+              <e p="_product.scss" t="Include" />
+              <e p="_progress.scss" t="Include" />
+              <e p="_say.scss" t="Include" />
+              <e p="_shop-list.scss" t="Include" />
+              <e p="_slider.scss" t="Include" />
+              <e p="_subscribe.scss" t="Include" />
+              <e p="_tab.scss" t="Include" />
+            </e>
+            <e p="style.scss" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="PartialViewHomeWork.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
